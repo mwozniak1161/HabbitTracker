@@ -1,0 +1,82 @@
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+}
+
+.react-calendar {
+  width: 100%;
+  border-radius: 0 0 12px 12px;
+  border: 0px !important;
+}
+
+.react-calendar__navigation {
+  background-color: #37464f;
+}
+
+.react-calendar__navigation button {
+  color: white;
+}
+
+.react-calendar__navigation button:hover {
+  background-color: #101f27 !important;
+}
+.react-calendar__navigation button:focus,
+.react-calendar__navigation__label:focus {
+  background-color: #101f27 !important;
+}
+
+.react-calendar__navigation button:disabled {
+  background-color: #37464f !important;
+}
+
+.react-calendar__navigation__label {
+  font-weight: 600;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+a {
+  color: #bbb;
+  text-decoration: none;
+  transition: all .2s linear;
+}
+
+a:visited
+{
+  color: #bbb;
+}
+
+a:active,
+a:hover{
+  color:white;
+}
+
+#notification{
+  position: fixed;
+  top: 10px;
+  right: 0px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f4f5fa;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
